@@ -761,7 +761,7 @@ footer{background:rgba(255,255,255,.62);-webkit-backdrop-filter:var(--blur);back
  --shadow:var(--gloss),0 10px 30px rgba(20,20,26,.08);--shadow-h:var(--gloss),0 22px 48px rgba(120,0,0,.16)}
 .bgfx .a,.bgfx .b,body:not([data-page="home"]) .bgfx .a,body:not([data-page="home"]) .bgfx .b{opacity:1}
 .bgfx .b{opacity:.8}
-.bgfx::after{content:"";position:absolute;inset:0;background:rgba(255,255,255,.4);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+.bgfx::after{content:"";position:absolute;inset:0;background:rgba(255,255,255,.15);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
 /* glass windows */
 .slider,.rackwrap,.plexhero,.art-hero,.sitehead,footer,.bnav,.sheet,.tabs,.buybox,.ccat .ci,.sugg,.mega .in{background:var(--glass)!important;-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);border:1px solid var(--glass-edge)}
 .sitehead{border-width:0 0 1px;background:rgba(255,255,255,.42)!important}
@@ -782,13 +782,13 @@ footer{background:rgba(255,255,255,.62);-webkit-backdrop-filter:var(--blur);back
 .shead{background:var(--glass);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);border:1px solid var(--glass-edge);border-radius:16px;padding:8px 16px;box-shadow:var(--shadow)}
 .shead h2,.shead a{background:none;border:0;padding:0;-webkit-backdrop-filter:none;backdrop-filter:none}
 /* glass lettering: translucent fill with a light edge */
-h1,h2,.pcard h3,.bcard h3,.feat b,.promo h3,.ru .l,.citem h3{background-image:linear-gradient(180deg,rgba(24,24,30,.95),rgba(24,24,30,.62));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 rgba(255,255,255,.9)) drop-shadow(0 6px 12px rgba(20,20,26,.12))}
-.ru .l{background-image:linear-gradient(180deg,#fff,rgba(255,255,255,.6));filter:none}
-h1 em,h2 em{background-image:linear-gradient(180deg,#FF3030,rgba(190,0,0,.72));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.amz-side h2,.about-hero h1,.fnews h3{background-image:linear-gradient(180deg,#fff,rgba(255,255,255,.66));filter:drop-shadow(0 2px 6px rgba(80,0,0,.35))}
+h1,h2,.pcard h3,.bcard h3,.feat b,.promo h3,.ru .l,.citem h3{background-image:linear-gradient(180deg,rgba(24,24,30,.9) 0%,rgba(24,24,30,.55) 45%,rgba(24,24,30,.28) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 rgba(255,255,255,1)) drop-shadow(0 -1px 0 rgba(255,255,255,.55)) drop-shadow(0 8px 16px rgba(20,20,26,.18))}
+.ru .l{background-image:linear-gradient(180deg,#fff,rgba(255,255,255,.35));filter:none}
+h1 em,h2 em{background-image:linear-gradient(180deg,rgba(255,40,40,.95),rgba(200,0,0,.4));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.amz-side h2,.about-hero h1,.fnews h3{background-image:linear-gradient(180deg,#fff,rgba(255,255,255,.35));filter:drop-shadow(0 2px 6px rgba(80,0,0,.35))}
 .pcard h3 a,.bcard h3,.citem h3 a{-webkit-text-fill-color:inherit}
 .shead h2::before{-webkit-text-fill-color:initial}
-.logo .w{background-image:linear-gradient(180deg,#FF2A2A,rgba(170,0,0,.8));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 rgba(255,255,255,.9))}
+.logo .w{background-image:linear-gradient(180deg,rgba(255,42,42,.95),rgba(170,0,0,.45));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 rgba(255,255,255,.9))}
 body{color:rgba(28,28,33,.9)}
 .art-hero{color:var(--ink)}.art-hero .meta{color:var(--ink2);opacity:1}
 @media (max-width:720px){.slide::before{background:radial-gradient(90% 60% at 50% 62%,rgba(255,255,255,.4),rgba(255,255,255,0) 80%)}}
