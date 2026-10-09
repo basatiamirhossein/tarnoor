@@ -8,4 +8,8 @@
 
 ## نسخه‌ها
 - نسخه اول، تم آبی: [`v1/`](https://basatiamirhossein.github.io/tarnoor/v1/)
-- نسخه دوم (نهایی)، تم سفید و قرمز شیشه‌ای: [`v2/`](https://basatiamirhossein.github.io/tarnoor/v2/)
+- نسخه سوم (نهایی)، سبک نئومورفیسم، سه‌زبانه (فارسی، English، العربية): [`v3/`](https://basatiamirhossein.github.io/tarnoor/v3/)
+
+### نسخه سوم
+- `v3/index.html` یک فایل کامل و مستقل است؛ فونت‌ها داخل خود فایل‌اند و بدون اینترنت روی هر سیستم‌عامل و مرورگری باز می‌شود.
+- کد منبع در `v3/src/` و فونت‌ها در `v3/fonts/` هستند. بعد از هر تغییر، با `python3 v3/build.py` فایل `v3/index.html` دوباره ساخته می‌شود (به Python 3 و Node نیاز دارد).
